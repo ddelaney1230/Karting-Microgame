@@ -1,0 +1,627 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1697414126822547, "dur": 1878133, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1697414126822764, "dur": 13839, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1697414126836606, "dur": 32330, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1697414126868985, "dur": 1245258, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1697414128114245, "dur": 572795, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1697414128687042, "dur": 13636, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1697414128701706, "dur": 16, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1697414127942344, "dur": 153405, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1697414127943504, "dur": 49023, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1697414128076926, "dur": 4051, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1697414128080982, "dur": 14763, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1697414128081581, "dur": 13414, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1697414128101460, "dur": 1040, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1697414128099979, "dur": 2543, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1697414128701856, "dur": 287, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1697414128168101, "dur":2026, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697414128170133, "dur":302, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1697414128170470, "dur":30, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1697414128170500, "dur":336, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1697414128170853, "dur":591, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697414128171444, "dur":0, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697414128657069, "dur":308, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697414128657377, "dur":23, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697414128657400, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697414128657401, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697414128657409, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697414128657410, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697414128657415, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697414128657416, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697414128657420, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697414128657421, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697414128657425, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697414128657427, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697414128657430, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697414128657432, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697414128657435, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697414128657436, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697414128657440, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697414128657441, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697414128657444, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697414128657445, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697414128657449, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697414128657450, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697414128657453, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697414128657455, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697414128657458, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697414128657460, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697414128657463, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697414128657464, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697414128657467, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697414128657469, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697414128657472, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697414128657473, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697414128657478, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697414128657490, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697414128657506, "dur":9735, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1697414128171073, "dur":376, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697414128171450, "dur":5028, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697414128176487, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1697414128176491, "dur":926, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697414128177421, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1697414128177427, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697414128229494, "dur":1447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1697414128230943, "dur":20788, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697414128251735, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697414128251743, "dur":9605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697414128261461, "dur":21288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697414128282752, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697414128282760, "dur":6519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697414128289342, "dur":34714, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697414128324059, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697414128324066, "dur":6148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697414128330283, "dur":192520, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697414128522808, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697414128522819, "dur":1544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697414128524407, "dur":132671, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697414128171157, "dur":314, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697414128171471, "dur":5027, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697414128176499, "dur":766, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1697414128177270, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697414128228195, "dur":4530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1697414128232792, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697414128233001, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697414128233009, "dur":2891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697414128235954, "dur":551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697414128236509, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697414128236518, "dur":5511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697414128242118, "dur":288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697414128242410, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697414128242420, "dur":8229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697414128250715, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697414128250897, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697414128250907, "dur":10489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697414128261487, "dur":1014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697414128262530, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697414128262539, "dur":11290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697414128273887, "dur":38117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697414128312008, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697414128312018, "dur":9181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697414128321371, "dur":560, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697414128321935, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697414128321942, "dur":3605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697414128327070, "dur":732, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697414128327805, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697414128327812, "dur":4971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697414128332857, "dur":142376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/System.IO.Abstractions.TestingHelpers.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697414128475239, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697414128475250, "dur":1194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/System.IO.Abstractions.TestingHelpers.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697414128476497, "dur":180593, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697414128171099, "dur":360, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697414128171459, "dur":5027, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697414128176487, "dur":10593, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1697414128187083, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697414128187097, "dur":1268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1697414128188425, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697414128188654, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697414128189034, "dur":1161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697414128190252, "dur":41811, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697414128232067, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697414128232108, "dur":5289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697414128237461, "dur":38524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697414128275989, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697414128275999, "dur":6611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697414128282675, "dur":27539, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697414128310222, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697414128310239, "dur":2229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697414128312527, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697414128312679, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697414128312710, "dur":8367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697414128321135, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697414128321278, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697414128321283, "dur":12479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697414128333835, "dur":226911, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/System.Interactive.Async.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697414128560753, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697414128560765, "dur":1413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/System.Interactive.Async.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697414128562231, "dur":94849, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697414128171096, "dur":357, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697414128171453, "dur":5031, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697414128176488, "dur":746, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1697414128177235, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697414128203343, "dur":2261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1697414128205739, "dur":106679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697414128312422, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697414128312429, "dur":4331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697414128316809, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697414128317006, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697414128317012, "dur":1700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697414128318796, "dur":907, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697414128319707, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697414128319715, "dur":3068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697414128322836, "dur":218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697414128323057, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697414128323064, "dur":3422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697414128326557, "dur":592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697414128327153, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697414128327190, "dur":4958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697414128332203, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697414128332358, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697414128332366, "dur":2896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697414128335337, "dur":5433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697414128340773, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697414128340782, "dur":5578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697414128346417, "dur":32868, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697414128379290, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697414128412290, "dur":14286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697414128426632, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1697414128426685, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697414128426692, "dur":3276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1697414128430019, "dur":227046, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697414128171129, "dur":334, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697414128171463, "dur":5017, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697414128176488, "dur":40476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1697414128217060, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697414128223969, "dur":1350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1697414128225384, "dur":61765, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697414128287155, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697414128287168, "dur":3438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697414128290658, "dur":21991, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697414128312652, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697414128312660, "dur":4724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697414128317442, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697414128317679, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697414128317712, "dur":2746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697414128320523, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697414128320676, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697414128320683, "dur":4224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697414128324959, "dur":264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Unity.ML-Agents.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697414128325226, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697414128325234, "dur":2562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Unity.ML-Agents.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697414128327852, "dur":284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Unity.Barracuda.ONNX.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697414128328139, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697414128328146, "dur":4726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Unity.Barracuda.ONNX.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697414128332932, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/System.IO.Abstractions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697414128333108, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697414128333116, "dur":5732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/System.IO.Abstractions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697414128338910, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/KartGame.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697414128339114, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697414128339124, "dur":14575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/KartGame.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697414128353760, "dur":8689, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Plugins/x86_64/grpc_csharp_ext.x64.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697414128362453, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697414128364031, "dur":2128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Plugins/x86_64/grpc_csharp_ext.x64.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697414128366240, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":5, "ts":1697414128366316, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697414128366326, "dur":1938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":5, "ts":1697414128368330, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1697414128368449, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697414128368456, "dur":3035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1697414128371545, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1697414128371600, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697414128371605, "dur":49134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1697414128420796, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/level2" }}
+,{ "pid":12345, "tid":5, "ts":1697414128420889, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697414128420897, "dur":6349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/level2" }}
+,{ "pid":12345, "tid":5, "ts":1697414128427321, "dur":229750, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697414128171151, "dur":316, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697414128171467, "dur":5024, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697414128176491, "dur":10482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1697414128186977, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697414128187068, "dur":1243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1697414128188366, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1697414128188475, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697414128189010, "dur":6880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1697414128195967, "dur":35628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697414128231599, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697414128231606, "dur":3880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697414128235546, "dur":1459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697414128237009, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697414128237017, "dur":2560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697414128239633, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697414128239809, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697414128239817, "dur":4227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697414128244102, "dur":30904, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697414128275011, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697414128275023, "dur":7169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697414128282244, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697414128282416, "dur":80, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697414128282503, "dur":2973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697414128285537, "dur":58616, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697414128344160, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697414128344173, "dur":25038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697414128369277, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1697414128369340, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697414128369360, "dur":8625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1697414128378155, "dur":14690, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1697414128392940, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697414128392955, "dur":23090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1697414128416112, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1697414128416182, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697414128416195, "dur":8940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1697414128425222, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1697414128425312, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697414128425322, "dur":1698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1697414128427077, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1697414128427130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697414128427136, "dur":3215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1697414128430414, "dur":226653, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697414128171178, "dur":296, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697414128171474, "dur":5074, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697414128176549, "dur":10339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1697414128186894, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697414128186914, "dur":1551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1697414128188536, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697414128188709, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697414128189051, "dur":1006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697414128190110, "dur":38625, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697414128228741, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697414128228756, "dur":1077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697414128229881, "dur":21631, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697414128251516, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697414128251524, "dur":9975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697414128261589, "dur":21880, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697414128283473, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697414128283481, "dur":7116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697414128290655, "dur":1259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697414128291918, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697414128291930, "dur":2874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697414128294858, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697414128295081, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697414128295092, "dur":3495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697414128298652, "dur":37453, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697414128336109, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697414128336169, "dur":2879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697414128339103, "dur":428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/KartGame.AI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697414128339535, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697414128339544, "dur":5165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/KartGame.AI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697414128344795, "dur":225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697414128345026, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697414128345039, "dur":17770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697414128362925, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":7, "ts":1697414128363069, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697414128363076, "dur":7684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":7, "ts":1697414128370878, "dur":340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":7, "ts":1697414128371221, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697414128371231, "dur":47142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":7, "ts":1697414128418424, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/level2.resS" }}
+,{ "pid":12345, "tid":7, "ts":1697414128418476, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697414128418482, "dur":6563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/level2.resS" }}
+,{ "pid":12345, "tid":7, "ts":1697414128425102, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/level1" }}
+,{ "pid":12345, "tid":7, "ts":1697414128425155, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697414128425162, "dur":1964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/level1" }}
+,{ "pid":12345, "tid":7, "ts":1697414128427185, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1697414128427335, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697414128427341, "dur":3019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1697414128430443, "dur":226630, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697414128171201, "dur":276, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697414128171477, "dur":5005, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697414128176488, "dur":720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1697414128177210, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697414128203640, "dur":7389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1697414128211089, "dur":29058, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697414128240150, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697414128240159, "dur":4728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697414128244948, "dur":54923, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697414128299877, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697414128299888, "dur":4091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697414128304042, "dur":21311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697414128325357, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697414128325366, "dur":4466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697414128329889, "dur":324905, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697414128654799, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697414128654810, "dur":2183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697414128657033, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":8, "ts":1697414128657035, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1697414128171217, "dur":263, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1697414128171480, "dur":5003, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1697414128176487, "dur":9971, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1697414128186461, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1697414128186554, "dur":1125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1697414128187757, "dur":5858, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1697414128193621, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1697414128193634, "dur":2228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1697414128195943, "dur":263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697414128196232, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1697414128196522, "dur":1656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697414128198242, "dur":24782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697414128223031, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1697414128223045, "dur":1967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697414128225074, "dur":24382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697414128249460, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1697414128249467, "dur":6417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697414128255946, "dur":23021, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697414128278971, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1697414128278981, "dur":4442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697414128283477, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697414128283651, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1697414128283704, "dur":7360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697414128291135, "dur":24315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697414128315454, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1697414128315463, "dur":1996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697414128317515, "dur":374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697414128317892, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1697414128317898, "dur":5287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697414128323237, "dur":435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697414128323675, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1697414128323683, "dur":4360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697414128328109, "dur":653, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Unity.Barracuda.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697414128328766, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1697414128328774, "dur":6379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Unity.Barracuda.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697414128335234, "dur":198414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697414128533654, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1697414128533666, "dur":1807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697414128535554, "dur":121521, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1697414128171250, "dur":233, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1697414128171483, "dur":5009, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1697414128176495, "dur":705, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1697414128177203, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1697414128201617, "dur":11456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1697414128213179, "dur":28586, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697414128241847, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1697414128241859, "dur":10892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697414128252815, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697414128253014, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1697414128253023, "dur":8470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697414128261567, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697414128261852, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1697414128261864, "dur":9739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697414128271682, "dur":44840, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697414128316526, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1697414128316534, "dur":5062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697414128321656, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697414128321860, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1697414128321868, "dur":8979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697414128331235, "dur":877, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697414128332117, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1697414128332129, "dur":3027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697414128335212, "dur":662, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697414128335877, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1697414128335887, "dur":2933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697414128338885, "dur":269456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697414128608347, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1697414128608358, "dur":1152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697414128609548, "dur":47522, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697414128171268, "dur":218, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697414128171486, "dur":5002, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697414128176490, "dur":651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1697414128177147, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697414128178991, "dur":2875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1697414128181935, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1697414128182093, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697414128182276, "dur":1236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1697414128183576, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":11, "ts":1697414128183686, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697414128183692, "dur":1814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":11, "ts":1697414128185548, "dur":20919, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697414128206471, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697414128206618, "dur":16899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697414128223582, "dur":25391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697414128248977, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697414128248987, "dur":2802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697414128251845, "dur":24958, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697414128276807, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697414128276817, "dur":4930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697414128281808, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697414128282093, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697414128282102, "dur":3334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697414128285555, "dur":25096, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697414128310655, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697414128310664, "dur":1859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697414128312576, "dur":396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697414128312975, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697414128312981, "dur":4248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697414128317284, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Unity.Tutorials.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697414128317424, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697414128317430, "dur":2164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Unity.Tutorials.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697414128319650, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697414128319808, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697414128319816, "dur":3923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697414128323820, "dur":292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697414128324115, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697414128324121, "dur":10710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697414128334894, "dur":1232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697414128336130, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697414128336140, "dur":6947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697414128343141, "dur":375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Google.Protobuf.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697414128343519, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697414128343528, "dur":19134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Google.Protobuf.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697414128362720, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1697414128362834, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697414128362841, "dur":10953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1697414128373905, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":11, "ts":1697414128374095, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697414128374105, "dur":42464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":11, "ts":1697414128416635, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/level3.resS" }}
+,{ "pid":12345, "tid":11, "ts":1697414128416698, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697414128416708, "dur":9211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/level3.resS" }}
+,{ "pid":12345, "tid":11, "ts":1697414128425976, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/level0" }}
+,{ "pid":12345, "tid":11, "ts":1697414128426032, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697414128426039, "dur":1710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/level0" }}
+,{ "pid":12345, "tid":11, "ts":1697414128428285, "dur":228781, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1697414128171299, "dur":190, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1697414128171489, "dur":5000, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1697414128176494, "dur":603, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1697414128177103, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1697414128179235, "dur":2605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1697414128181912, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1697414128182048, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1697414128182466, "dur":1146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1697414128183655, "dur":1372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697414128185030, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1697414128185284, "dur":1161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697414128186501, "dur":69939, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697414128256444, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1697414128256451, "dur":20885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697414128277452, "dur":278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697414128277736, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1697414128277748, "dur":11834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697414128289673, "dur":39810, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697414128329488, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1697414128329496, "dur":4496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697414128334048, "dur":2193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697414128336244, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1697414128336250, "dur":7027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697414128343324, "dur":953, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697414128344281, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1697414128344289, "dur":23615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697414128367962, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":12, "ts":1697414128368019, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1697414128368026, "dur":45500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":12, "ts":1697414128413595, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1697414128413662, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1697414128413673, "dur":4246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1697414128417964, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/level3" }}
+,{ "pid":12345, "tid":12, "ts":1697414128418018, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1697414128418024, "dur":8364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/level3" }}
+,{ "pid":12345, "tid":12, "ts":1697414128426465, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1697414128426550, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1697414128426559, "dur":3565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1697414128430185, "dur":226904, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1697414128171314, "dur":178, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1697414128171492, "dur":5024, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1697414128176517, "dur":10123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":13, "ts":1697414128186643, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1697414128186723, "dur":1195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":13, "ts":1697414128187976, "dur":60181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame.exe" }}
+,{ "pid":12345, "tid":13, "ts":1697414128248163, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1697414128248173, "dur":6118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame.exe" }}
+,{ "pid":12345, "tid":13, "ts":1697414128254350, "dur":559, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1697414128254913, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1697414128254923, "dur":7286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1697414128262286, "dur":301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1697414128262591, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1697414128262599, "dur":16191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1697414128278852, "dur":22201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1697414128301058, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1697414128301069, "dur":3274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1697414128304395, "dur":266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1697414128304664, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1697414128304675, "dur":1894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1697414128306627, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1697414128306827, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1697414128306836, "dur":1633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1697414128308522, "dur":26282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1697414128334809, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1697414128334819, "dur":6973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1697414128341854, "dur":400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Grpc.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1697414128342257, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1697414128342266, "dur":19395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Grpc.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1697414128361761, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":13, "ts":1697414128361840, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1697414128361988, "dur":3304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":13, "ts":1697414128365428, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1697414128365531, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1697414128365542, "dur":5547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1697414128371163, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1697414128371246, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1697414128371253, "dur":49728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1697414128421073, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/level1.resS" }}
+,{ "pid":12345, "tid":13, "ts":1697414128421155, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1697414128421165, "dur":8781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/level1.resS" }}
+,{ "pid":12345, "tid":13, "ts":1697414128430067, "dur":227002, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1697414128171335, "dur":159, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1697414128171495, "dur":5000, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1697414128176500, "dur":10490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1697414128186994, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1697414128187087, "dur":1281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1697414128188437, "dur":21429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1697414128209873, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1697414128209884, "dur":1396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1697414128211351, "dur":33204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1697414128244560, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1697414128244574, "dur":1158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1697414128245783, "dur":33222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1697414128279035, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1697414128279044, "dur":10299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1697414128289407, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1697414128289589, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1697414128289601, "dur":2468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1697414128292115, "dur":29516, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1697414128321635, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1697414128321642, "dur":4014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1697414128325712, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Unity.ML-Agents.CommunicatorObjects.dll" }}
+,{ "pid":12345, "tid":14, "ts":1697414128325942, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1697414128325950, "dur":2114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Unity.ML-Agents.CommunicatorObjects.dll" }}
+,{ "pid":12345, "tid":14, "ts":1697414128328143, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Unity.Barracuda.BurstBLAS.dll" }}
+,{ "pid":12345, "tid":14, "ts":1697414128328277, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1697414128328285, "dur":4419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Unity.Barracuda.BurstBLAS.dll" }}
+,{ "pid":12345, "tid":14, "ts":1697414128332759, "dur":88606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":14, "ts":1697414128421369, "dur":233, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1697414128421612, "dur":7372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":14, "ts":1697414128429036, "dur":228059, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1697414128171358, "dur":140, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1697414128171498, "dur":5025, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1697414128176523, "dur":777, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1697414128177304, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1697414128228771, "dur":1644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1697414128230474, "dur":81320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1697414128311797, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1697414128311806, "dur":2930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1697414128314791, "dur":551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":15, "ts":1697414128315345, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1697414128315355, "dur":2614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":15, "ts":1697414128318018, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":15, "ts":1697414128318174, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1697414128318181, "dur":2552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":15, "ts":1697414128320795, "dur":374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":15, "ts":1697414128321172, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1697414128321178, "dur":5346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":15, "ts":1697414128326625, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":15, "ts":1697414128326765, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1697414128326772, "dur":3219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":15, "ts":1697414128330055, "dur":109873, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":15, "ts":1697414128439936, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1697414128439950, "dur":1385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":15, "ts":1697414128441393, "dur":215692, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1697414128171380, "dur":120, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1697414128171500, "dur":5005, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1697414128176505, "dur":649, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":16, "ts":1697414128177160, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1697414128188384, "dur":1868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":16, "ts":1697414128190314, "dur":40941, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1697414128231259, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1697414128231269, "dur":4187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1697414128235513, "dur":561, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1697414128236078, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1697414128236087, "dur":2955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1697414128239099, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1697414128239283, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1697414128239294, "dur":1174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1697414128240524, "dur":323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1697414128240851, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1697414128240859, "dur":4590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1697414128245511, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1697414128245730, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1697414128245739, "dur":3304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1697414128249099, "dur":23938, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1697414128273043, "dur":70, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1697414128273128, "dur":6394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1697414128279588, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1697414128279768, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1697414128279776, "dur":4587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1697414128284415, "dur":18799, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1697414128303221, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1697414128303233, "dur":1592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1697414128304886, "dur":151111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1697414128456008, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1697414128456029, "dur":2055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Dillon Delaney/Desktop/Builds/Build/Karting Microgame_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1697414128458149, "dur":198942, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697414128669016, "dur":2017, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1697414128702251, "dur": 712, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1697414128701689, "dur": 1296, "ph": "X", "name": "Write chrome-trace events", "args": {} },
